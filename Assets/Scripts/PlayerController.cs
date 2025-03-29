@@ -3,6 +3,7 @@ using UnityEngine;
 
 public class PlayerController : MonoBehaviour
 {
+    audioManager audioManager;
     Rigidbody2D rb;
     public float jumpForce = 1000;
     bool inAir = false;
@@ -23,8 +24,9 @@ public class PlayerController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if(Input.GetMouseButton(0))
+        if(Input.GetMouseButtonDown(0))
         {
+            audioManager.PlaySFX(audioManager.jump);
             if(!inAir) 
             {
                 rb.AddForceAtPosition(Vector2.up * jumpForce, transform.position);
@@ -65,5 +67,10 @@ public class PlayerController : MonoBehaviour
     private void OnCollisionExit2D(Collision2D collision)
     {
         inAir = true;
+    }
+
+    private void Awake()
+    {
+        audioManager = GameObject.FindGameObjectWithTag("Audio").GetComponent<audioManager>();
     }
 }
