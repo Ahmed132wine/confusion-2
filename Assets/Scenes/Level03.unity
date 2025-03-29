@@ -3274,13 +3274,13 @@ PrefabInstance:
     m_TransformParent: {fileID: 1710063529}
     m_Modifications:
     - target: {fileID: 7223837816094392884, guid: 9182a526a9e5a4136b5e5f3cf4c5cf31, type: 3}
+      propertyPath: text
+      value: 
+      objectReference: {fileID: 1643006250}
+    - target: {fileID: 7223837816094392884, guid: 9182a526a9e5a4136b5e5f3cf4c5cf31, type: 3}
       propertyPath: winPanel
       value: 
       objectReference: {fileID: 1842032663}
-    - target: {fileID: 8043005076457711628, guid: 9182a526a9e5a4136b5e5f3cf4c5cf31, type: 3}
-      propertyPath: m_LocalScale.x
-      value: 0.6732453
-      objectReference: {fileID: 0}
     - target: {fileID: 8043005076457711628, guid: 9182a526a9e5a4136b5e5f3cf4c5cf31, type: 3}
       propertyPath: m_LocalPosition.x
       value: 88.01

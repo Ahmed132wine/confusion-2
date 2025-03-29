@@ -2500,7 +2500,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3713c5f3b21e04b998bc0c848d91a6ae, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  nextLevelButton: {fileID: 268500411}
 --- !u!4 &892392304
 Transform:
   m_ObjectHideFlags: 0
@@ -5832,6 +5831,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1953482809}
     m_Modifications:
+    - target: {fileID: 7223837816094392884, guid: 9182a526a9e5a4136b5e5f3cf4c5cf31, type: 3}
+      propertyPath: text
+      value: 
+      objectReference: {fileID: 655790118}
     - target: {fileID: 7223837816094392884, guid: 9182a526a9e5a4136b5e5f3cf4c5cf31, type: 3}
       propertyPath: winPanel
       value: 
