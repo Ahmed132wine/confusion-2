@@ -26,10 +26,10 @@ public class PlayerController : MonoBehaviour
     {
         if(Input.GetMouseButtonDown(0))
         {
-            audioManager.PlaySFX(audioManager.jump);
             if(!inAir) 
             {
                 rb.AddForceAtPosition(Vector2.up * jumpForce, transform.position);
+                audioManager.PlaySFX(audioManager.jump);
                 inAir = true;
             }
         }
