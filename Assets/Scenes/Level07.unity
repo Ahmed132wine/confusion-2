@@ -5839,6 +5839,10 @@ PrefabInstance:
     m_TransformParent: {fileID: 936282768}
     m_Modifications:
     - target: {fileID: 7223837816094392884, guid: 9182a526a9e5a4136b5e5f3cf4c5cf31, type: 3}
+      propertyPath: text
+      value: 
+      objectReference: {fileID: 310212437}
+    - target: {fileID: 7223837816094392884, guid: 9182a526a9e5a4136b5e5f3cf4c5cf31, type: 3}
       propertyPath: winPanel
       value: 
       objectReference: {fileID: 541798291}
